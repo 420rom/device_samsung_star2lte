@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_star2lte.mk
+    $(LOCAL_DIR)/four20rom_star2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_star2lte-eng \
-    derp_star2lte-user \
-    derp_star2lte-userdebug
+    four20rom_star2lte-eng \
+    four20rom_star2lte-user \
+    four20rom_star2lte-userdebug

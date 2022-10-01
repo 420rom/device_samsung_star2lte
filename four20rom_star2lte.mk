@@ -29,14 +29,14 @@ TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
 ## Inherit some common AOSP stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
-DERP_RELEASE := true
+$(call inherit-product, vendor/420rom/config/common_full_phone.mk)
+420ROM_RELEASE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_LEGACY_BOOTANIMATION := true
-DERP_BUILDTYPE := Official
+420ROM_BUILDTYPE := Official
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := derp_star2lte
+PRODUCT_NAME := four20rom_star2lte
 PRODUCT_DEVICE := star2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G965F
